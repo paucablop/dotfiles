@@ -8,7 +8,6 @@ Task("Default")
   .IsDependentOn("vscode")
   .IsDependentOn("ssh")
   .IsDependentOn("powershell")
-  .IsDependentOn("zsh")
   .IsDependentOn("oh-my-posh")
   .Does(() =>
 {
@@ -69,13 +68,6 @@ Task("powershellv5")
 Task("powershell")
   .IsDependentOn("pwsh")
   .IsDependentOn("powershellv5");
-
-Task("zsh")
-  .Does(() =>
-{
-  dotfile("zsh/zshrc", home);
-  dotfile("zsh/zprofile", home);
-});
 
 Task("oh-my-posh")
   .Does(() =>

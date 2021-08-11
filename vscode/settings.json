@@ -21,7 +21,7 @@
   ],
   "editor.insertSpaces": true,
   "editor.tabSize": 2,
-  "window.zoomLevel": 3,
+  "window.zoomLevel": 1,
   "files.trimTrailingWhitespace": true,
   "editor.detectIndentation": true,
   "git.confirmSync": false,
@@ -32,9 +32,8 @@
   "editor.mouseWheelZoom": true,
   "powershell.integratedConsole.showOnStartup": false,
   "workbench.editor.showTabs": false,
-  "workbench.sideBar.location": "right",
+  "workbench.sideBar.location": "left",
   "editor.renderFinalNewline": true,
-  "git.enableCommitSigning": true,
   "[markdown]": {
     "files.trimTrailingWhitespace": false
   },
@@ -58,7 +57,6 @@
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "powershell.codeFormatting.preset": "OTBS",
   "diffEditor.ignoreTrimWhitespace": false,
-  "workbench.colorTheme": "Visual Studio 2019 Dark",
   "telemetry.enableTelemetry": false,
   "workbench.iconTheme": "file-icons",
 }
